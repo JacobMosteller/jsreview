@@ -15,3 +15,5 @@ Counter.prototype.getValue = function() {
 Counter.prototype.reset =  function() {
   this.value = 0;
 };
+
+console.log()

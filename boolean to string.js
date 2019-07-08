@@ -8,3 +8,10 @@
 //
 // For this kata, don't worry about edge cases like where unexpected input is passed to the function. You'll get to worry about these enough in later exercises.
 
+trueorfalse = (value) => {
+    if(value){
+        return 'true'
+    }else{ return 'false'}
+}
+
+console.log(trueorfalse(false));

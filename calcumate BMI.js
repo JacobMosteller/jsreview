@@ -8,3 +8,15 @@
 //
 // if bmi > 30 return "Obese"
 
+bmi = (weight, height) => {
+    bmi = weight/height *2
+    if(bmi<=18.5){
+        return 'Underweight'
+    }else if(bmi<=25){
+        return 'Normal'
+    }else if(bmi<= 30){
+        return 'Overweigth'
+    }else if(bmi>30){
+        return 'Obese'
+    }
+}

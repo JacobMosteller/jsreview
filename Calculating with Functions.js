@@ -11,3 +11,34 @@
 // Each calculation consist of exactly one operation and two numbers
 // The most outer function represents the left operand, the most inner function represents the right operand
 //
+zero = (cb,num) => {
+    
+}
+one = () => {
+
+}
+two = () => {
+
+}
+three = () => {
+
+}
+four = () => {
+
+}
+five = () => {
+
+}
+six = () => {
+
+}
+seven = () => {
+
+}
+eight = () => {
+
+}
+nine = () => {
+
+}
+

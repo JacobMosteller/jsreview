@@ -10,3 +10,11 @@
 //
 // Can you write a function that takes in a noun as a string, and returns her preferred band name written as a string?
 
+bandName = (name) => {
+    firstletter = name.charAt(0)
+    lastletter = name.charAt(name.length-1)
+    letters = name.substr(1)
+    if(firstletter===lastletter){
+        return name+letters;
+    }else{return 'the '+ name}
+}

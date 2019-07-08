@@ -5,3 +5,5 @@ function find_average(array) {
   }, 0)
   return added/array.length;
 }
+
+console.log(find_average([1,2,3,4,5,6]));
