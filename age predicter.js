@@ -13,3 +13,17 @@
 
 // Some random tests might fail due to a bug in the JavaScript implementation. Simply resubmit if that happens to you.
 
+theSecret = (num) => {
+    let mulitplied = [];
+    let added = 0
+    for(i=0;i<num.length;i++){
+        mulitplied.push(num[i]*num[i])
+    }
+    for(i=0;i<mulitplied.length;i++){
+        added += mulitplied[i]
+    }
+    let square = Math.sqrt(added);
+    let half = square/2
+    let answer = Math.trunc(half)
+    return answer
+}

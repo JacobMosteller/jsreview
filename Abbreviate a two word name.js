@@ -8,3 +8,6 @@
 //
 // Patrick Feeney => P.F
 
+initals = (name) => {
+   return name.split(" ").map((n)=>n[0]).join('.')
+}

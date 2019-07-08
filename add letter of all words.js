@@ -6,3 +6,11 @@
 
 // Note: String will have at least one element; words will always be separated by a space.
 
+word = (str) => {
+   let words = str.split(" ");
+   let numbers = [];
+   for(i=0;i<words.length;i++){
+       numbers.push(words[i] + ' ' + words[i].length)
+   }
+   return numbers
+}

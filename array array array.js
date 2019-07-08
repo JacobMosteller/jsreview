@@ -8,4 +8,22 @@
 //
 // if (x) == ['a', 3] you should return [['a', 3], ['a', 3], ['a', 3]].
 
+score = (ex) => {
+    let value1 = +ex[0]
+    let value2 = +ex[1]
+    answer = []
+    if(value1 ==! NaN){
+        if(value2 ==! NaN){
+            answer.push(ex)
+            answer.push(ex)
+        }else{for(i=0;i<value1;i++){
+            answer.push(ex)
+            }
+        }
+    }else{for(i=0;i<value2;i++){
+        answer.push(ex)
+    }}
+    return answer
+}
 
+console.log(score(['a',5]));

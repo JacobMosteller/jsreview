@@ -16,3 +16,11 @@
 //
 // Other katas in this series:
 
+isithotter = (num) => {
+    let answer = 'Help yourself to a honeycomb Yorkie for the glovebox.';
+    let theNum = parseInt(num);
+    if(theNum*theNum >= 1000){
+        answer = `It's hotter than the sun!!`
+    }
+    return answer
+}
